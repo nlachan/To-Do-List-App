@@ -38,7 +38,7 @@ function newItem() {
 // On Enter
 function newItemOnEnter(event) {
   var x = event.code;
-  if (c == "Enter") {
+  if (x == "Enter") {
     event.preventDefault(); // Do not submit form
     newItem();
   }
